@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <!--Button text, size and color-->
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 1"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:background="#0066FF"/>
+
+    <!--Call Drawable for the background (Solid, Corners)-->
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 2"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bg_btn2"
+        android:layout_below="@+id/btn_1"
+        android:layout_marginTop="10dp"/>
+
+    <!--Call Drawable for the background (Solid, Stroke, Corners)-->
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 3"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bg_btn3"
+        android:layout_below="@+id/btn_2"
+        android:layout_marginTop="10dp"/>
+
+    <!--Call Drawable for change color when pressed and call onclick method to pop up message-->
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 4"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bg_btn4"
+        android:layout_below="@+id/btn_3"
+        android:onClick="showToast"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#000000"
+        android:background="#0066FF"
+        android:textSize="20sp"
+        android:text="Text 1"
+        android:layout_below="@+id/btn_4"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+</RelativeLayout>

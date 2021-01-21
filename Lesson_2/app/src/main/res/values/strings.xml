@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Lesson</string>
+
+    <!-- Text View-->
+    <string name="tv_test1">"I'm Kah Yee"</string>
+    <string name="tv_filter">筛选</string>
+
+    <!-- Text Edit(Radio Button)-->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="email">"Would you Like to receive Email?"</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+</resources>

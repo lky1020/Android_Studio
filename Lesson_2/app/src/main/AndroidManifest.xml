@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lesson_2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Lesson -->
+        <activity android:name=".UiActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Manage Lesson 1 to 3 -->
+        <activity android:name=".MainActivity" />
+
+        <!-- Lesson 2 -->
+        <activity android:name=".TextViewActivity" />
+        <activity android:name=".ButtonActivity" />
+        <activity android:name=".EditTextActivity" />
+        <activity android:name=".ImageViewActivity" />
+        <activity android:name=".listView.ListViewActivity" />
+        <activity android:name=".gridView.GridViewActivity" />
+        <activity android:name=".recyclerView.RecyclerViewActivity" />
+        <activity android:name=".recyclerView.LinearRecyclerViewActivity" />
+        <activity android:name=".recyclerView.HorizontalRecyclerViewActivity" />
+        <activity android:name=".recyclerView.GridRecyclerViewActivity" />
+        <activity android:name=".recyclerView.WaterFallRecyclerViewActivity" />
+        <activity android:name=".WebViewActivity" />
+
+        <!-- Lesson 3 -->
+        <activity android:name=".ToastActivity" />
+        <activity android:name=".DialogActivity" />
+        <activity android:name=".ProgressActivity" />
+        <activity android:name=".CustomDialogActivity" />
+        <activity android:name=".PopUpActivity" />
+
+        <!-- Lesson 4 -->
+        <activity android:name=".TestActivity" />
+        <activity android:name=".fragment.ContainerActivity" />
+
+        <!-- Activity跳转&数据传递 -->
+        <!-- Activity跳转 -->
+        <activity
+            android:name=".jump.AActivity"
+            android:label="A Activity" />
+        <!-- Activity跳转 : set the action to let the B Activity to be call in the AActivity.java -->
+        <activity
+            android:name=".jump.BActivity"
+            android:label="B Activity">
+            <intent-filter>
+                <action android:name="com.example.lesson_2.BActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Lesson 5 -->
+        <activity android:name=".EventActivity" />
+        <activity android:name=".HandlerActivity" />
+
+        <!-- Lesson 7 -->
+        <activity android:name=".dataStorage.DataStorageActivity" />
+        <activity android:name=".dataStorage.SharedPreferencesActivity" />
+        <activity android:name=".dataStorage.FileActivity" />
+        <activity android:name=".dataStorage.ExternalFileActivity" />
+    </application>
+
+</manifest>

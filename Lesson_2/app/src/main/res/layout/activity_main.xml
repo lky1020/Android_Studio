@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btn_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btn_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Text"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btn_imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Image View"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btn_listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List View"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btn_gridView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grid View"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btn_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recycler View"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btn_webView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Web View"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btn_toast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toast"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btn_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alert Dialog"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btn_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Progress Bar &amp; Dialog"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btn_customDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Custom Dialog"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btn_popup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pop Up"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"/>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:text="Test 1"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:text="Test 2"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:text="Test 3"
+                    android:textAllCaps="false"/>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+</ScrollView>
